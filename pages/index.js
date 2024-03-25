@@ -71,7 +71,7 @@ export default function Home() {
                     Explore our AI-powered commentary on climate change. Every 10 minutes, we scour headlines from
                     Western media outlets for the latest updates on climate change. These headlines are then fed into a
                     sophisticated language model, which crafts stories in the style of Western news agencies. Can you
-                    discern the difference?
+                    tell the difference?
                 </p>
                 {nextUpdate && <CountdownTimer nextUpdate={nextUpdate} />}
             </header>
