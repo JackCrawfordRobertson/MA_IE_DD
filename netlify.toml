@@ -1,0 +1,17 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+  functions = "netlify/functions"
+
+[context.production]
+  command = "npm run build"  # Adjust the build command as needed
+
+[context.deploy-preview]
+  command = "npm run build"  # Adjust the build command as needed
+
+[[scheduled_functions]]
+  function = "generate-story"
+  schedule = "*/10 * * * *"
+
+[build.environment]
+  SITE_ID = "632d8297-0b97-4a89-90a0-5456b08959bd"

@@ -1,0 +1,156 @@
+body,
+button,
+input,
+textarea {
+    font-family: "Old Standard TT", serif;
+    background-color: #f4f4e2 !important;
+}
+
+.App {
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 100%;
+    height: auto;
+    z-index: 10;
+}
+
+.App-header {
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.App-sub {
+    justify-content: center;
+    position: relative;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.App-body {
+    flex-shrink: 0;
+    width: 100%;
+    display: block;
+}
+
+.css-5xe99f-MuiLinearProgress-bar1 {
+    background-color: #e0c9a6 !important;
+}
+
+.css-t752vm {
+    background-color: #e0c9a6 !important;
+}
+
+.news-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    width: 40vw;
+}
+
+.responsive-paragraph {
+    margin: 0;
+    font-size: 1em;
+    padding-bottom: 1em;
+    width: 60vw;
+}
+
+.Typewriterheadline {
+    font-size: 1.5em;
+    padding-bottom: 1em;
+    font-weight: bold;
+    color: #333;
+}
+
+.timer {
+    font-size: 1em;
+    margin-bottom: 1em;
+    color: #333;
+}
+
+.Typewriterparagraph {
+    font-size: 1em;
+    color: #333;
+}
+.Typewriter__cursor {
+    font-size: 1em;
+    color: #e0c9a6;
+}
+
+.css-eglki6-MuiLinearProgress-root {
+    background-color: #f3dfc1 !important;
+}
+
+.article-history {
+    width: auto !important;
+}
+
+.previous-message {
+    padding: 1em;
+    margin: 1em;
+    width: 40vw;
+}
+
+.previous-message-title {
+    font-size: 1.5em;
+    padding-bottom: 0.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.previous-message-timestamp {
+    font-size: 1em;
+    color: #333;
+}
+
+.timestamp-text {
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+@media only screen and (min-width: 601px) {
+  .App-body {
+    display: block; /* Use block display for column-count to work */
+    column-count: 3; /* Create three columns */
+    column-gap: 20px; /* Space between columns */
+}
+
+.news-item, .previous-message {
+  -webkit-column-break-inside: avoid; /* For Chrome, Safari */
+  page-break-inside: avoid; /* For Firefox */
+  break-inside: avoid-column; /* Standard property for preventing breaks inside the element */
+
+}
+}
+
+@media only screen and (max-width: 600px) {
+    .responsive-paragraph {
+        width: 100%;
+    }
+
+    .news-item {
+        width: 100% !important;
+    }
+
+    .App-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .previous-message {
+        width: auto !important;
+    }
+
+    .responsive-paragraph {
+        width: 100%;
+    }
+}

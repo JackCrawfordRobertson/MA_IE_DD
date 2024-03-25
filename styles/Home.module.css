@@ -1,0 +1,35 @@
+/* Home.module.css */
+.story {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    font-family: "Old Standard TT", serif;
+    background-color: #e9e9d8; /* Light grey background for story blocks */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
+    max-width: 100%;
+    line-height: 1.5;
+    color: #444;
+}
+
+.storyH2 {
+    color: #333;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+    font-family: "Old Standard TT", serif;
+    width: auto;
+    letter-spacing: 0.05em; /* Slightly spaced out letters */
+}
+
+.timestamp {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 1rem;
+    font-family: "Old Standard TT", serif;
+}
+
+.storyP {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #444;
+    font-family: "Old Standard TT", serif;
+}

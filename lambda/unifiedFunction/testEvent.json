@@ -1,0 +1,7 @@
+{
+    "queryStringParameters": {
+      "action": "fetchNews",
+      "articleTitle": "Climate Change"
+    }
+  }
+  
