@@ -48,9 +48,8 @@ textarea {
     background-color: #e4d5be !important;
 }
 
-.css-7p5u54{
+.css-7p5u54 {
     background-color: #e4d5be !important;
-
 }
 
 .news-item {
@@ -122,18 +121,18 @@ textarea {
 }
 
 @media only screen and (min-width: 601px) {
-  .App-body {
-    display: block; /* Use block display for column-count to work */
-    column-count: 3; /* Create three columns */
-    column-gap: 20px; /* Space between columns */
-}
+    .App-body {
+        display: block; /* Use block display for column-count to work */
+        column-count: 3; /* Create three columns */
+        column-gap: 20px; /* Space between columns */
+    }
 
-.news-item, .previous-message {
-  -webkit-column-break-inside: avoid; /* For Chrome, Safari */
-  page-break-inside: avoid; /* For Firefox */
-  break-inside: avoid-column; /* Standard property for preventing breaks inside the element */
-
-}
+    .news-item,
+    .previous-message {
+        -webkit-column-break-inside: avoid; /* For Chrome, Safari */
+        page-break-inside: avoid; /* For Firefox */
+        break-inside: avoid-column; /* Standard property for preventing breaks inside the element */
+    }
 }
 
 @media only screen and (max-width: 600px) {
