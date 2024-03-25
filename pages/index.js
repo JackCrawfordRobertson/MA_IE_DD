@@ -3,8 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Typewriter from "typewriter-effect";
 import CountdownTimer from "../src/components/CountdownTimer";
-import {db} from "../config/firebaseConfig";
-import {collection, onSnapshot} from "firebase/firestore";
+
 
 import homeStyles from "../styles/Home.module.css";
 import logo from "../public/logo.svg";
