@@ -4,7 +4,6 @@ import Image from "next/image";
 import Typewriter from "typewriter-effect";
 import CountdownTimer from "../src/components/CountdownTimer";
 
-
 import homeStyles from "../styles/Home.module.css";
 import logo from "../public/logo.svg";
 
@@ -70,8 +69,8 @@ export default function Home() {
                 <p className="responsive-paragraph">
                     Explore our AI-powered commentary on climate change. Every 10 minutes, we scour headlines from
                     Western media outlets for the latest updates on climate change. These headlines are then fed into a
-                    sophisticated language model, which crafts stories in the style of Western news agencies. Can you
-                    tell the difference?
+                    sophisticated language model, which crafts stories in the style of Western news agencies. See for
+                    yourself how AI is reshaping the news landscape.?
                 </p>
                 {nextUpdate && <CountdownTimer nextUpdate={nextUpdate} />}
             </header>
