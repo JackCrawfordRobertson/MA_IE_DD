@@ -70,7 +70,7 @@ export default function Home() {
                     Explore our AI-powered commentary on climate change. Every 10 minutes, we scour headlines from
                     Western media outlets for the latest updates on climate change. These headlines are then fed into a
                     sophisticated language model, which crafts stories in the style of Western news agencies. See for
-                    yourself how AI is reshaping the news landscape.?
+                    yourself how AI is reshaping the news landscape?
                 </p>
                 {nextUpdate && <CountdownTimer nextUpdate={nextUpdate} />}
             </header>
